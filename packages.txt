@@ -1,2 +1,4 @@
 libssl-dev
 libbz2-dev
+libexpat1-dev
+libmcpp-dev
