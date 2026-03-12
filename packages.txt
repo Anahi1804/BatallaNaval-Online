@@ -1,1 +1,2 @@
 libssl-dev
+libbz2-dev
