@@ -70,7 +70,6 @@ try:
         marcador = servidor.obtenerMarcador()
         st.success(f"🏆 ¡EL JUGADOR {ganador} HA GANADO LA PARTIDA! 🏆")
         st.code(marcador)
-        if st.button("Limpiar mi pantalla"): st.session_state.clear(); st.rerun()
         st.stop()
 except:
     pass
@@ -212,3 +211,4 @@ elif st.session_state.fase == "COMBATE":
     if turno_actual != st.session_state.mi_id:
         time.sleep(2)
         st.rerun()
+
